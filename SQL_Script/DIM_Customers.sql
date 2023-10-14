@@ -1,0 +1,38 @@
+-- Cleansing [DimCustomer] table and [DimGeography] table to create DIM_Customers table
+SELECT cus.[CustomerKey]
+      --,[GeographyKey]
+      --,[CustomerAlternateKey]
+      --,[Title]
+      ,cus.[FirstName]
+      --,[MiddleName]
+      ,cus.[LastName]
+	  ,cus.[FirstName] + ' ' + cus.[LastName] AS FullName
+      --,[NameStyle]
+      --,[BirthDate]
+      --,[MaritalStatus]
+      --,[Suffix]
+      ,CASE [Gender] WHEN 'M' THEN 'Male' WHEN 'F' THEN 'Female' END AS Gender
+      --,[EmailAddress]
+      --,[YearlyIncome]
+      --,[TotalChildren]
+      --,[NumberChildrenAtHome]
+      --,[EnglishEducation]
+      --,[SpanishEducation]
+      --,[FrenchEducation]
+      --,[EnglishOccupation]
+      --,[SpanishOccupation]
+      --,[FrenchOccupation]
+      --,[HouseOwnerFlag]
+      --,[NumberCarsOwned]
+      --,[AddressLine1]
+      --,[AddressLine2]
+      --,[Phone]
+      ,cus.[DateFirstPurchase]
+      --,[CommuteDistance]
+	  ,geo.[City]
+	  ,geo.[StateProvinceName]
+	  ,geo.[EnglishCountryRegionName] as Country
+  FROM [AdventureWorksDW2019].[dbo].[DimCustomer] cus
+  LEFT JOIN [AdventureWorksDW2019].[dbo].[DimGeography] geo
+  ON cus.[GeographyKey] = geo.[GeographyKey]
+  ORDER BY [CustomerKey]
