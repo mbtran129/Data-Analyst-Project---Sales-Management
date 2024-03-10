@@ -40,6 +40,13 @@ This data model also shows how FACT_Budget has been connected to FACT_Sales and 
 ### 3.1. Sales Overview
 ![image](https://github.com/mbtran129/Data-Analyst-Project---Sales-Management/assets/132595611/df3c78a3-057a-41b9-9c19-d235a2956613)
 
+Revenue in 2019 was 5.84M, in 2020 it was 16.35M, 3 times higher than the previous year. Revenue in 2020 exceeded the target by 6.87%.
+
+Monthly revenue in 2020 always follows the target. Months lacking targets: Feb, July, Sep, Dec. In June, revenue greatly exceeded target. 
+
+Bikes, Accessories and Clothing are three categories that the company sells.
+
+The figure below clearly shows the top 10 product customers that bring in the highest revenue.
 
 
 ### 3.2. Customer Detail
