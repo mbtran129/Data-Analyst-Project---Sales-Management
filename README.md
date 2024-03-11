@@ -48,15 +48,25 @@ Bikes, Accessories and Clothing are three categories that the company sells.
 
 The figure below clearly shows the top 10 product customers that bring in the highest revenue.
 
+![image](https://github.com/mbtran129/Data-Analyst-Project---Sales-Management/assets/132595611/fc2daaeb-6a1b-43ed-8557-922752b7f930)
+
 
 ### 3.2. Customer Detail
 ![image](https://github.com/mbtran129/Data-Analyst-Project---Sales-Management/assets/132595611/2daeb6c6-62b4-4dfe-9092-d9ecabcadccb)
+
+
+The company's customers are mainly in North America, Europe and Australia. Of which, United States revenue is the largest at 5.46 million, accounting for 33.4%. Ranked second is Australia with 4.34 million, accounting for 26.5%. Ranked third is United Kingdom with 2.12 million, accounting for 13%. Next is Germany with 1.76 million which is accounting for 10.8%, France with 1.58 million which is accounting for 9.7%, and Canada with 1.09 million which is accounting for 6.6%.
+
 
 
 
 ### 3.3. Product Detail
 ![image](https://github.com/mbtran129/Data-Analyst-Project---Sales-Management/assets/132595611/67ffc98f-e703-41d9-b1fa-7ee4cc2813c4)
 
+The number of products sold in 2019 was 3395, in 2020 it was 52.8K. It increased 15 times.
+
+In 2020, ~94% of revenue came from Bikes, 4% from Accessories and the rest from Clothing.
 
 ## 4. Suggestions
 
+On each dashboard page we can select elements to generally track revenue, products and customers. In it we can view reports by year and by month. You can also select filters to see more details.
